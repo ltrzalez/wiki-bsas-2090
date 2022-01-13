@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo2} className="App-logo" alt="logo" />
         <p>
-          wiki-bsas-2090
+          SORETE
         </p>
         <a
           className="App-link"
