@@ -1,23 +1,11 @@
-import logo2 from './pp.jfif'
-import './App.css';
+import logo2 from "./pp.jfif";
+import Title from "./components/Title";
 
 function App() {
+  console.log(logo2);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo2} className="App-logo" alt="logo" />
-        <p>
-          wiki-bsas-2090
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ backgroudImage: logo2 }}>
+      <Title />
     </div>
   );
 }
