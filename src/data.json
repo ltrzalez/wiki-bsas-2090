@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "fullName": "gorgo",
+        "faction": "",
+        "spheres": "",
+        "lorem": "",
+        "coments": []
+    },
+    {
+        "id": 1,
+        "fullName": "kolita",
+        "faction": "",
+        "spheres": "",
+        "lorem": "",
+        "coments": []
+    },
+    {
+        "id": 2,
+        "fullName": "aikea",
+        "faction": "",
+        "spheres": "",
+        "lorem": "",
+        "coments": []
+    },
+    {
+        "id": 3,
+        "fullName": "steiner",
+        "faction": "",
+        "spheres": "",
+        "lorem": "",
+        "coments": []
+    },
+    {
+        "id": 4,
+        "fullName": "vbendita",
+        "faction": "",
+        "spheres": "",
+        "lorem": "",
+        "coments": []
+    },
+    {
+        "id": 5,
+        "fullName": "Lucretia",
+        "faction": "",
+        "spheres": "",
+        "lorem": "",
+        "coments": []
+    }
+]
