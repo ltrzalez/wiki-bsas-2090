@@ -6,9 +6,10 @@ const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
     const [allCharacters, setAllCharacters] = useState(data)
+    const [selectedCharacter, setSelectedCharacter] = useState({})
 
     return <AppContext.Provider value={{
-        allCharacters
+        allCharacters, selectedCharacter, setSelectedCharacter
     }}>{ children }</AppContext.Provider>
 }
 

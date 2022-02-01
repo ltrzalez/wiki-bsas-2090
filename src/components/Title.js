@@ -1,20 +1,31 @@
 import React from "react";
+import { useState } from "react/cjs/react.development";
 import { useGlobalContext } from '../context'
 
 function Title() {
-  const { allCharacters } = useGlobalContext()
+  const { allCharacters, selectedCharacter, setSelectedCharacter } = useGlobalContext()
 
   return (
     <header>
       <h1 style={{ textAlign: "center"}}>2090</h1>
-      <input list="allCharacters" id="pj" placeholder="busca tu pj favorito"></input>
-      <datalist id="allCharacters">
-        {allCharacters.map((value, index)=>
-          { console.log(value)
-            return <option key={index} value={value.fullName} ></option>}
+
+      <select
+        onChange={ (e) => {
+          const pjElegido =  allCharacters[e.target.value]
+          setSelectedCharacter(pjElegido)
+        }} id="allCharacters"
+      >
+
+        {allCharacters.map((element, index)=>
+          { 
+            return <option key={index} value={element.id} >{element.fullName}</option>}
         )}
-      </datalist>
+      </select>
+      <div>
+        <h1>{selectedCharacter.fullName}</h1>
+      </div>
     </header>
+    
   );
 }
 export default Title;
