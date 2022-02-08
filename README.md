@@ -11,7 +11,7 @@ Dado que es un proyecto de aprendizaje vamos a documentar el codigo en comentari
  - seccion comentarios: comentarios hechos por otros pj sobre el pj seleccionado
  - footer: con datos de la app como: desarrolladores, contacto, link del repo
 
-![alt boceto](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt boceto](https://github.com/ltrzalez/wiki-bsas-2090/blob/main/Boceto.png?raw=true)
 
 ## TODO:
 
