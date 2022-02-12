@@ -10,13 +10,14 @@ console.log(data)
 
 function Pj () {
 
-    const [ idPersonajes, setIdPersonajes] = useState(-1)
-    const { allCharacters, setSelectedCharacter } = useGlobalContext()
-
+    const { selectedCharacter } = useGlobalContext()
 
     return (
         <div className="row">
-            <div className="col">
+
+          <h1 style={{textAlign: 'center', color: 'white'}}>{selectedCharacter.fullName}</h1>
+            {/* <div className="col">
+              <p>Eliga un personaje</p>
                 <select name="personajes" id="selPersonajes"
                    onChange={ (e) => {
                     const pjElegido =  allCharacters[e.target.value]
@@ -34,7 +35,7 @@ function Pj () {
             
             <div className="col">
                 <h3>Character Photo</h3>
-            </div>
+            </div> */}
         </div>
     )
 
