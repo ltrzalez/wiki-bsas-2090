@@ -11,9 +11,10 @@ import {
 function Footer() {
   return (
     <Box>
-      <h1 style={{ color: "green", textAlign: "center", marginTop: "-25px" }}>
+      <h1 style={{ color: "green", textAlign: "center", marginRight: "50px", marginTop: "-25px" }}>
         SPA by Ariel, German y Lautaro
       </h1>
+      
       <Container>
         <Row>
           <Column>
@@ -23,10 +24,13 @@ function Footer() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span style={{ marginLeft: "10px" }}>Linkedin</span>
+              <span style={{ marginLeft: "-5px" }}>Linkedin</span>
             </FooterLink>
-            <FooterLink href="#">
-              <span style={{ marginLeft: "10px" }}>Github</span>
+            <FooterLink href="https://github.com/ariellopezph"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <span style={{ marginLeft: "0px" }}>Github</span>
             </FooterLink>
           </Column>
           <Column>
@@ -43,7 +47,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span style={{ marginLeft: "10px" }}>Github</span>
+              <span style={{ marginLeft: "15px" }}>Github</span>
             </FooterLink>
           </Column>
           <Column>
@@ -60,7 +64,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <span style={{ marginLeft: "10px" }}>Github</span>
+              <span style={{ marginLeft: "15px" }}>Github</span>
             </FooterLink>
           </Column>
         </Row>
