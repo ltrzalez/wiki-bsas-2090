@@ -16,7 +16,7 @@ function Header() {
         {/* <h3>Viendo el personaje =&gt; {selectedCharacter.fullName}</h3> */}
         <div className="col">
             <p>Eliga un personaje</p>
-              <select name="personajes" id="selPersonajes" onClick={handlerCargaPj}
+              <select name="personajes" id="selPersonajes" 
                   onChange={ (e) => {
                   const pjElegido =  allCharacters[e.target.value]
                   setSelectedCharacter(pjElegido)
@@ -30,13 +30,8 @@ function Header() {
                   })
                 }                    
               </select>
-              <h3>Personajes</h3>
-                {
-                  allCharacters > -1 &&
-                  (
-                    <h1>hola</h1>
-                  )
-                }
+              
+               
               
           </div>
     </header>

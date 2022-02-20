@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
    
 export const Box = styled.div`
   padding: 2em 1em;
@@ -57,4 +58,20 @@ export const Heading = styled.p`
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
+`;
+
+export const Index = styled.div`
+  padding: 0;
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fill, 
+                        minmax(500px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+
+
+
+
+
 `;

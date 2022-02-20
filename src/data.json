@@ -5,7 +5,8 @@
         "faction": "",
         "spheres": "",
         "lorem": "",
-        "coments": []
+        "coments": [],
+        "img": "https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_960_720.jpg"
     },
     {
         "id": 1,
@@ -13,7 +14,9 @@
         "faction": "",
         "spheres": "",
         "lorem": "",
-        "coments": []
+        "coments": [],
+        "img": "https://cdn.pixabay.com/photo/2013/11/28/10/36/road-220058_960_720.jpg"
+         
     },
     {
         "id": 2,
